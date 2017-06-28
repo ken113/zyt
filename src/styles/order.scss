@@ -1,0 +1,45 @@
+.page-order{
+
+	.ctn-box{
+		padding:0 25px;
+		margin-bottom: 30px;
+
+
+		h4{
+			font-weight: 400;
+		    border-left: 2px solid #1D8CE0;
+		    padding-left: 20px;
+		        margin-top: 5px;
+		}
+		.order-btn{
+			text-align:right;
+		}
+
+		.order-title-btn{ 
+			margin-top: 20px;
+		}
+		.status-ctn{ margin-top:30px; }
+		.opt-ctn{
+			margin-top: 5px;
+
+
+			.search-ctn{
+
+				text-align:right;
+
+				.input-search{
+					width: 180px;
+				}
+			}
+		}
+	}
+
+
+	.el-select{
+		width:120px;
+		margin-left:10px;
+	}
+	.el-select-dropdown__item{
+		text-align: left;
+	}
+}

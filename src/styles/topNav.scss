@@ -1,0 +1,50 @@
+@import 'variable.scss';
+
+.pg-topNav{
+
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:$color1;
+	color:#F0F0F2;
+	font-size:18px;
+	font-weight:600;
+
+	.nav-item{
+		position: relative;
+
+		&:after{
+			content: '';
+			position:absolute;
+			right:0;
+			top:12px;
+			height:50%;
+			border-right:1px solid #fff;
+		}
+		&.system:after{
+			content: '';
+			border:0;
+		}
+		.el-icon-caret-bottom{
+			font-size: 12px;
+			padding-left: 10px;
+		}
+		
+	}
+	.nav-username{
+		font-weight: 400;
+	}
+	.nav-icon{
+		font-weight: 400;
+		font-size: 20px;
+	}
+
+	a.selected{
+		background:#13CE66;
+
+		.nav-item:after{
+			content: '';
+			border:0;
+		}
+	}
+}

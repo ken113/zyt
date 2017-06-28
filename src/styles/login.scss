@@ -1,0 +1,70 @@
+@import 'variable.scss';
+
+.pg-login{
+
+	.login-title{
+		height: 80px;
+		line-height: 80px;
+		.csname{
+			font-size: 36px;
+		}
+	}
+	.login-center{
+		height: 600px;
+		background: url(./../images/bg.jpg);
+		background-size: cover;
+
+		.login-box{
+			height: 400px;
+			width: 400px;
+			border-radius: 4px;
+			background:#fff;
+			margin-right: 100px;
+			margin-top: 100px;
+			border:1px solid #d4d4d4;
+
+			.lang{
+				padding: 10px;
+				padding-bottom:20px;
+				border-bottom: 1px solid #d4d4d4;
+			}
+			.login-form{
+				border-bottom: 1px solid #d4d4d4;
+				.col{
+					padding:10px;
+					.col-label{
+						text-align: center;
+					}
+				}
+			}
+
+			.login-btn{
+				padding: 15px;
+
+				button{
+					width: 100%;
+				}
+			}
+			.icon-user{ 
+				font-size:26px; 
+				color:$color1;     
+				margin-top: 5px;
+			}
+			.icon-password{ 
+				font-size:26px; 
+				color:$color1;     
+				margin-top: 5px;
+			}
+			.icon-refresh{
+				margin: 8px 10px;
+				color:$color1;
+				cursor: pointer;
+			}
+		}
+	}
+	
+	.copyright{
+		margin-top: 20px;
+		text-align: center;
+	}
+}
