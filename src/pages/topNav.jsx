@@ -11,13 +11,24 @@ class TopNav extends React.Component {
 		return(
 			<Layout.Row className="pg-topNav">
 				<Layout.Col span="2">LOGIN图片</Layout.Col>
-
 				<Layout.Col span="2"><NavLink to="/main" activeClassName="selected"><div className="nav-item">工作台</div></NavLink></Layout.Col>
 				<Layout.Col span="2"><NavLink to="/order" activeClassName="selected"><div className="nav-item">订单</div></NavLink></Layout.Col>
 				<Layout.Col span="2"><NavLink to="/customer" activeClassName="selected"><div className="nav-item">客户</div></NavLink></Layout.Col>
 				<Layout.Col span="2"><div className="nav-item">产品<Icon name="caret-bottom"/></div></Layout.Col>
 				<Layout.Col span="2"><div className="nav-item">报表</div></Layout.Col>
-				<Layout.Col span="2"><div className="nav-item system">系统<Icon name="caret-bottom"/></div></Layout.Col>
+				<Layout.Col span="2">
+					<div className="nav-item system">系统<Icon name="caret-bottom"/></div>
+					<div className="sub-nav-item">
+						<ul>
+							<li><NavLink to="/company" activeClassName="selected">公司管理</NavLink></li>
+							<li>邮箱参数</li>
+							<li>角色管理</li>
+							<li>用户管理</li>
+							<li>子账号管理</li>
+							<li>基础数据</li>
+						</ul>
+					</div>
+				</Layout.Col>
 
 				<Layout.Col span="10">
 					<Layout.Row type="flex" justify="end">
